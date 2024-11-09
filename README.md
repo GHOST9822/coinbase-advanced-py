@@ -251,7 +251,7 @@ Note that if the automatic reconnection fails after the retry limit is reached, 
 
 If you wish to implement your own reconnection logic, you can catch the `WSClientConnectionClosedException` and handle it appropriately. For example:
 ```python
-client = WSClient(api_key=api_key, api_secret=api_secret, on_message=on_message, retry=False)
+client = WSClient(6dc331cd-cd83-4324-a75d-5102183c392f=api_key, api_secret=api_secret, on_message=on_message, retry=False)
 
 def connect_and_subscribe():
     try:
