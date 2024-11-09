@@ -27,7 +27,7 @@ WARNING: We do not recommend that you save your API secrets directly in your cod
 
 Optional: Set your API key and secret in your environment (make sure to put these in quotation marks). For example:
 ```bash
-export COINBASE_API_KEY="organizations/{org_id}/apiKeys/{key_id}"
+export COINBASE_API_KEY="organizations/{org_id}/apiKeys/{6dc331cd-cd83-4324-a75d-5102183c392f}"
 export COINBASE_API_SECRET="-----BEGIN EC PRIVATE KEY-----\nYOUR PRIVATE KEY\n-----END EC PRIVATE KEY-----\n"
 ```
 
